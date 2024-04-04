@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://demoda.vn/wp-content/uploads/2022/01/background-cay-xanh-hoat-hinh-dep.jpg);
+    background-size: 110%;
+    font-size: 16px;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* style signup */
+.signup {
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.signup h1{
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.signup h5{
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.signup form {
+  display: flex;
+  flex-direction: column;
+}
+.Signup-signInButton{
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group i{
+  color: black;
+}
+/* style login */
+.login {
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login h1{
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.login h5{
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+.login-btn{
+  margin-top: 5px;
+}
